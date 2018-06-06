@@ -1,28 +1,25 @@
 # Big-Mart-Sales-Prediction
 
-From the challange hosted at: https://datahack.analyticsvidhya.com/contest/practice-problem-loan-prediction-iii/
-## Problem Statement:
+# Problem Statement
 
-Dream Housing Finance company deals in all home loans. They have presence across all urban, semi urban and rural areas. Customer first apply for home loan after that company validates the customer eligibility for loan.
+The data scientists at BigMart have collected 2013 sales data for 1559 products across 10 stores in different cities. Also, certain attributes of each product and store have been defined. The aim is to build a predictive model and find out the sales of each product at a particular store.
 
-The company wants to automate the loan eligibility process (real time) based on customer detail provided while filling online application form. These details are Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others. To automate this process, they have given a problem to identify the customers segments, those are eligible for loan amount so that they can specifically target these customers. Here they have provided a partial data set.
+Using this model, BigMart will try to understand the properties of products and stores which play a key role in increasing sales.
 
 ## The Data
+We have train (8523) and test (5681) data set, train data set has both input and output variable(s). You need to predict the sales for test data set.
 
 Variable | Description
 ----------|--------------
-Loan_ID | Unique Loan ID
-Gender | Male/ Female
-Married | Applicant married (Y/N)
-Dependents | Number of dependents
-Education | Applicant Education (Graduate/ Under Graduate)
-Self_Employed | Self employed (Y/N)
-ApplicantIncome | Applicant income
-CoapplicantIncome | Coapplicant income
-LoanAmount | Loan amount in thousands
-Loan_Amount_Term | Term of loan in months
-Credit_History | credit history meets guidelines
-Property_Area | Urban/ Semi Urban/ Rural
-Loan_Status | Loan approved (Y/N)
-
-I have applied PCA algorithm to reduce the data into two dimensions to visualize the classification of data using some classification techniques.
+Item_Identifier | Unique product ID
+Item_Weight | Weight of product
+Item_Fat_Content | Whether the product is low fat or not
+Item_Visibility | The % of total display area of all products in a    store allocated to the particular product
+Item_Type | The category to which the product belongs
+Item_MRP | Maximum Retail Price (list price) of the product
+Outlet_Identifier | Unique store ID
+Outlet_Establishment_Year | The year in which store was established
+Outlet_Size | The size of the store in terms of ground area covered
+Outlet_Location_Type | The type of city in which the store is located
+Outlet_Type | Whether the outlet is just a grocery store or some sort of supermarket
+Item_Outlet_Sales | Sales of the product in the particulat store. This is the outcome variable to be predicted.
