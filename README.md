@@ -25,4 +25,4 @@ Credit_History | credit history meets guidelines
 Property_Area | Urban/ Semi Urban/ Rural
 Loan_Status | Loan approved (Y/N)
 
-I have applied PCA algorithm to reduce into two dimensions to visualize the classification of data using some classification techniques.
+I have applied PCA algorithm to reduce the data into two dimensions to visualize the classification of data using some classification techniques.
